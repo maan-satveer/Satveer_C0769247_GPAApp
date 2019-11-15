@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BDB8E31237F2C1900F05D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E30237F2C1900F05D0D /* AppDelegate.swift */; };
+		9BDB8E33237F2C1900F05D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E32237F2C1900F05D0D /* SceneDelegate.swift */; };
+		9BDB8E35237F2C1900F05D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E34237F2C1900F05D0D /* ViewController.swift */; };
+		9BDB8E38237F2C1900F05D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E36237F2C1900F05D0D /* Main.storyboard */; };
+		9BDB8E3A237F2C1A00F05D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E39237F2C1A00F05D0D /* Assets.xcassets */; };
+		9BDB8E3D237F2C1A00F05D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E3B237F2C1A00F05D0D /* LaunchScreen.storyboard */; };
+		9BDB8E48237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E47237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift */; };
+		9BDB8E53237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E52237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BDB8E44237F2C1A00F05D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BDB8E25237F2C1900F05D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDB8E2C237F2C1900F05D0D;
+			remoteInfo = Satveer_C0769247_GPAApp;
+		};
+		9BDB8E4F237F2C1B00F05D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BDB8E25237F2C1900F05D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDB8E2C237F2C1900F05D0D;
+			remoteInfo = Satveer_C0769247_GPAApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BDB8E2D237F2C1900F05D0D /* Satveer_C0769247_GPAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Satveer_C0769247_GPAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB8E30237F2C1900F05D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BDB8E32237F2C1900F05D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BDB8E34237F2C1900F05D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BDB8E37237F2C1900F05D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BDB8E39237F2C1A00F05D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BDB8E3C237F2C1A00F05D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BDB8E3E237F2C1A00F05D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDB8E43237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Satveer_C0769247_GPAAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB8E47237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satveer_C0769247_GPAAppTests.swift; sourceTree = "<group>"; };
+		9BDB8E49237F2C1B00F05D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDB8E4E237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Satveer_C0769247_GPAAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB8E52237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satveer_C0769247_GPAAppUITests.swift; sourceTree = "<group>"; };
+		9BDB8E54237F2C1B00F05D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BDB8E2A237F2C1900F05D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB8E40237F2C1A00F05D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB8E4B237F2C1B00F05D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BDB8E24237F2C1900F05D0D = {
+			isa = PBXGroup;
+			children = (
+				9BDB8E2F237F2C1900F05D0D /* Satveer_C0769247_GPAApp */,
+				9BDB8E46237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests */,
+				9BDB8E51237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests */,
+				9BDB8E2E237F2C1900F05D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BDB8E2E237F2C1900F05D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB8E2D237F2C1900F05D0D /* Satveer_C0769247_GPAApp.app */,
+				9BDB8E43237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests.xctest */,
+				9BDB8E4E237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BDB8E2F237F2C1900F05D0D /* Satveer_C0769247_GPAApp */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB8E30237F2C1900F05D0D /* AppDelegate.swift */,
+				9BDB8E32237F2C1900F05D0D /* SceneDelegate.swift */,
+				9BDB8E34237F2C1900F05D0D /* ViewController.swift */,
+				9BDB8E36237F2C1900F05D0D /* Main.storyboard */,
+				9BDB8E39237F2C1A00F05D0D /* Assets.xcassets */,
+				9BDB8E3B237F2C1A00F05D0D /* LaunchScreen.storyboard */,
+				9BDB8E3E237F2C1A00F05D0D /* Info.plist */,
+			);
+			path = Satveer_C0769247_GPAApp;
+			sourceTree = "<group>";
+		};
+		9BDB8E46237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB8E47237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift */,
+				9BDB8E49237F2C1B00F05D0D /* Info.plist */,
+			);
+			path = Satveer_C0769247_GPAAppTests;
+			sourceTree = "<group>";
+		};
+		9BDB8E51237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB8E52237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift */,
+				9BDB8E54237F2C1B00F05D0D /* Info.plist */,
+			);
+			path = Satveer_C0769247_GPAAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BDB8E2C237F2C1900F05D0D /* Satveer_C0769247_GPAApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDB8E57237F2C1B00F05D0D /* Build configuration list for PBXNativeTarget "Satveer_C0769247_GPAApp" */;
+			buildPhases = (
+				9BDB8E29237F2C1900F05D0D /* Sources */,
+				9BDB8E2A237F2C1900F05D0D /* Frameworks */,
+				9BDB8E2B237F2C1900F05D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Satveer_C0769247_GPAApp;
+			productName = Satveer_C0769247_GPAApp;
+			productReference = 9BDB8E2D237F2C1900F05D0D /* Satveer_C0769247_GPAApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BDB8E42237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDB8E5A237F2C1B00F05D0D /* Build configuration list for PBXNativeTarget "Satveer_C0769247_GPAAppTests" */;
+			buildPhases = (
+				9BDB8E3F237F2C1A00F05D0D /* Sources */,
+				9BDB8E40237F2C1A00F05D0D /* Frameworks */,
+				9BDB8E41237F2C1A00F05D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDB8E45237F2C1A00F05D0D /* PBXTargetDependency */,
+			);
+			name = Satveer_C0769247_GPAAppTests;
+			productName = Satveer_C0769247_GPAAppTests;
+			productReference = 9BDB8E43237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BDB8E4D237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDB8E5D237F2C1B00F05D0D /* Build configuration list for PBXNativeTarget "Satveer_C0769247_GPAAppUITests" */;
+			buildPhases = (
+				9BDB8E4A237F2C1B00F05D0D /* Sources */,
+				9BDB8E4B237F2C1B00F05D0D /* Frameworks */,
+				9BDB8E4C237F2C1B00F05D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDB8E50237F2C1B00F05D0D /* PBXTargetDependency */,
+			);
+			name = Satveer_C0769247_GPAAppUITests;
+			productName = Satveer_C0769247_GPAAppUITests;
+			productReference = 9BDB8E4E237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BDB8E25237F2C1900F05D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9BDB8E2C237F2C1900F05D0D = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					9BDB8E42237F2C1A00F05D0D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 9BDB8E2C237F2C1900F05D0D;
+					};
+					9BDB8E4D237F2C1B00F05D0D = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 9BDB8E2C237F2C1900F05D0D;
+					};
+				};
+			};
+			buildConfigurationList = 9BDB8E28237F2C1900F05D0D /* Build configuration list for PBXProject "Satveer_C0769247_GPAApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BDB8E24237F2C1900F05D0D;
+			productRefGroup = 9BDB8E2E237F2C1900F05D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BDB8E2C237F2C1900F05D0D /* Satveer_C0769247_GPAApp */,
+				9BDB8E42237F2C1A00F05D0D /* Satveer_C0769247_GPAAppTests */,
+				9BDB8E4D237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BDB8E2B237F2C1900F05D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDB8E3D237F2C1A00F05D0D /* LaunchScreen.storyboard in Resources */,
+				9BDB8E3A237F2C1A00F05D0D /* Assets.xcassets in Resources */,
+				9BDB8E38237F2C1900F05D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB8E41237F2C1A00F05D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB8E4C237F2C1B00F05D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BDB8E29237F2C1900F05D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDB8E35237F2C1900F05D0D /* ViewController.swift in Sources */,
+				9BDB8E31237F2C1900F05D0D /* AppDelegate.swift in Sources */,
+				9BDB8E33237F2C1900F05D0D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB8E3F237F2C1A00F05D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDB8E48237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB8E4A237F2C1B00F05D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDB8E53237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BDB8E45237F2C1A00F05D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BDB8E2C237F2C1900F05D0D /* Satveer_C0769247_GPAApp */;
+			targetProxy = 9BDB8E44237F2C1A00F05D0D /* PBXContainerItemProxy */;
+		};
+		9BDB8E50237F2C1B00F05D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BDB8E2C237F2C1900F05D0D /* Satveer_C0769247_GPAApp */;
+			targetProxy = 9BDB8E4F237F2C1B00F05D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BDB8E36237F2C1900F05D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BDB8E37237F2C1900F05D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BDB8E3B237F2C1A00F05D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BDB8E3C237F2C1A00F05D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BDB8E55237F2C1B00F05D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BDB8E56237F2C1B00F05D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BDB8E58237F2C1B00F05D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Satveer_C0769247_GPAApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Satveer-C0769247-GPAApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BDB8E59237F2C1B00F05D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Satveer_C0769247_GPAApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Satveer-C0769247-GPAApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BDB8E5B237F2C1B00F05D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Satveer_C0769247_GPAAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Satveer-C0769247-GPAAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Satveer_C0769247_GPAApp.app/Satveer_C0769247_GPAApp";
+			};
+			name = Debug;
+		};
+		9BDB8E5C237F2C1B00F05D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Satveer_C0769247_GPAAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Satveer-C0769247-GPAAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Satveer_C0769247_GPAApp.app/Satveer_C0769247_GPAApp";
+			};
+			name = Release;
+		};
+		9BDB8E5E237F2C1B00F05D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Satveer_C0769247_GPAAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Satveer-C0769247-GPAAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Satveer_C0769247_GPAApp;
+			};
+			name = Debug;
+		};
+		9BDB8E5F237F2C1B00F05D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Satveer_C0769247_GPAAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Satveer-C0769247-GPAAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Satveer_C0769247_GPAApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BDB8E28237F2C1900F05D0D /* Build configuration list for PBXProject "Satveer_C0769247_GPAApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDB8E55237F2C1B00F05D0D /* Debug */,
+				9BDB8E56237F2C1B00F05D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDB8E57237F2C1B00F05D0D /* Build configuration list for PBXNativeTarget "Satveer_C0769247_GPAApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDB8E58237F2C1B00F05D0D /* Debug */,
+				9BDB8E59237F2C1B00F05D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDB8E5A237F2C1B00F05D0D /* Build configuration list for PBXNativeTarget "Satveer_C0769247_GPAAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDB8E5B237F2C1B00F05D0D /* Debug */,
+				9BDB8E5C237F2C1B00F05D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDB8E5D237F2C1B00F05D0D /* Build configuration list for PBXNativeTarget "Satveer_C0769247_GPAAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDB8E5E237F2C1B00F05D0D /* Debug */,
+				9BDB8E5F237F2C1B00F05D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BDB8E25237F2C1900F05D0D /* Project object */;
+}
