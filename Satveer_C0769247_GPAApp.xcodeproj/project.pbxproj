@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		9BDB8E31237F2C1900F05D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E30237F2C1900F05D0D /* AppDelegate.swift */; };
 		9BDB8E33237F2C1900F05D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E32237F2C1900F05D0D /* SceneDelegate.swift */; };
-		9BDB8E35237F2C1900F05D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E34237F2C1900F05D0D /* ViewController.swift */; };
 		9BDB8E38237F2C1900F05D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E36237F2C1900F05D0D /* Main.storyboard */; };
 		9BDB8E3A237F2C1A00F05D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E39237F2C1A00F05D0D /* Assets.xcassets */; };
 		9BDB8E3D237F2C1A00F05D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E3B237F2C1A00F05D0D /* LaunchScreen.storyboard */; };
 		9BDB8E48237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E47237F2C1B00F05D0D /* Satveer_C0769247_GPAAppTests.swift */; };
 		9BDB8E53237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E52237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift */; };
+		9BDB8E61237F30A300F05D0D /* StudentlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E60237F30A300F05D0D /* StudentlistTableViewController.swift */; };
+		9BDB8E63237F344900F05D0D /* Studnt_DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E62237F344900F05D0D /* Studnt_DetailViewController.swift */; };
+		9BDB8E65237F35DF00F05D0D /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E64237F35DF00F05D0D /* Struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		9BDB8E2D237F2C1900F05D0D /* Satveer_C0769247_GPAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Satveer_C0769247_GPAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDB8E30237F2C1900F05D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDB8E32237F2C1900F05D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BDB8E34237F2C1900F05D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BDB8E37237F2C1900F05D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BDB8E39237F2C1A00F05D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BDB8E3C237F2C1A00F05D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		9BDB8E4E237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Satveer_C0769247_GPAAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDB8E52237F2C1B00F05D0D /* Satveer_C0769247_GPAAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satveer_C0769247_GPAAppUITests.swift; sourceTree = "<group>"; };
 		9BDB8E54237F2C1B00F05D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDB8E60237F30A300F05D0D /* StudentlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentlistTableViewController.swift; sourceTree = "<group>"; };
+		9BDB8E62237F344900F05D0D /* Studnt_DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Studnt_DetailViewController.swift; sourceTree = "<group>"; };
+		9BDB8E64237F35DF00F05D0D /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				9BDB8E30237F2C1900F05D0D /* AppDelegate.swift */,
 				9BDB8E32237F2C1900F05D0D /* SceneDelegate.swift */,
-				9BDB8E34237F2C1900F05D0D /* ViewController.swift */,
 				9BDB8E36237F2C1900F05D0D /* Main.storyboard */,
 				9BDB8E39237F2C1A00F05D0D /* Assets.xcassets */,
 				9BDB8E3B237F2C1A00F05D0D /* LaunchScreen.storyboard */,
 				9BDB8E3E237F2C1A00F05D0D /* Info.plist */,
+				9BDB8E60237F30A300F05D0D /* StudentlistTableViewController.swift */,
+				9BDB8E62237F344900F05D0D /* Studnt_DetailViewController.swift */,
+				9BDB8E64237F35DF00F05D0D /* Struct.swift */,
 			);
 			path = Satveer_C0769247_GPAApp;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDB8E35237F2C1900F05D0D /* ViewController.swift in Sources */,
 				9BDB8E31237F2C1900F05D0D /* AppDelegate.swift in Sources */,
+				9BDB8E63237F344900F05D0D /* Studnt_DetailViewController.swift in Sources */,
+				9BDB8E61237F30A300F05D0D /* StudentlistTableViewController.swift in Sources */,
+				9BDB8E65237F35DF00F05D0D /* Struct.swift in Sources */,
 				9BDB8E33237F2C1900F05D0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
